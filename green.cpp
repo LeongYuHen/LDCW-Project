@@ -59,7 +59,7 @@ int main() {
             cout << "⚡ Net monthly energy usage:     " << totalEnergyUsed << " kWh\n";
             cout << "✅ Done! Press [Enter] to return to the menu...\n";
             cin.ignore();
-            cin.get();
+            cin.get()
 
         } else if (choice == 2) {
             displayEnergyTips();
