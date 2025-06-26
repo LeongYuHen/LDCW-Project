@@ -148,7 +148,7 @@ double calculateTransportEmissions(bool useEV, int kmPerDay) {
 
 void displayEnergyTips() {
     cout << "\n💡 === Smart Living Tips === 💡\n";
-    cout << "🌱 Switch to LED lighting to cut energy waste.\n"
+    cout << "🌱 Switch to LED lighting to cut energy waste.\n";
     cout << "🔌 Use smart plugs to stop vampire power loss.\n";
     cout << "🌬️ Set AC to 25°C and clean filters regularly.\n";
     cout << "🚴‍♀️ Use EVs, walk, or cycle whenever possible.\n";
