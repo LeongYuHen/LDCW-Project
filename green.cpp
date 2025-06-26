@@ -94,7 +94,6 @@ int getMenuSelection() {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
         } else {
             return selection;
-        }
     }
 }
 
