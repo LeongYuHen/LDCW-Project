@@ -143,7 +143,7 @@ double calculateApplianceSavings(bool useSmartPlugs) {
 
 double calculateTransportEmissions(bool useEV, int kmPerDay) {
     double emissionPerKm = useEV ? 0.04 : 0.18;
-    return emissionPerKm * kmPerDay * 30;
+    return emissionPerKm * kmPerDay * 30
 }
 
 void displayEnergyTips() {
