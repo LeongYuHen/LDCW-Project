@@ -63,7 +63,7 @@ int main() {
 
         } else if (choice == 2) {
             displayEnergyTips();
-            cout << "\n✅ Press [Enter] to return to the menu...\n";
+            cout << "\n✅ Press [Enter] to return to the menu...\n"
             cin.ignore();
             cin.get();
 
