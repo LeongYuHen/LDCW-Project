@@ -67,7 +67,7 @@ int main() {
             cin.ignore();
             cin.get();
 
-        } else if (choice == 3) {
+        } else if (choice == 3) 
             cout << "\n👋 Exiting the program. Thank you for contributing to a smarter planet!\n";
             break;
         }
