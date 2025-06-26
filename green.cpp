@@ -28,7 +28,7 @@ int main() {
 
         if (choice == 1) {
             string name;
-            cout << "🧑 Please enter your name: "
+            cout << "🧑 Please enter your name: ";
             cin.ignore();
             getline(cin, name);
 
