@@ -8,7 +8,7 @@ using namespace std;
 // Constants
 const double LED_SAVINGS_PER_BULB_KWH = 0.08 * 5 * 30; // 8W savings per bulb, 5h/day, 30d
 const double AC_CONSUMPTION_PER_HOUR_KWH = 1.2;
-const double CO2_PER_KWH = 0.92 / 1000;
+const double CO2_PER_KWH = 0.92 / 1000
 
 // Function declarations
 int getPositiveIntInput(const string& prompt);
